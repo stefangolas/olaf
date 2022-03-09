@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: olaf
+Version: 0.5
+Summary: Open-Source Lab Automation Framework
+Home-page: https://github.com/dgretton/pyhamilton.git
+Author: Dana Gretton
+Author-email: dgretton@mit.edu
+License: MIT
+Description: # Open-Source Lab Automation Framework (olaf)
+        
+Platform: UNKNOWN
