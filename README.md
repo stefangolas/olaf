@@ -1,1 +1,1 @@
-# olaf
+# Open-Source Lab Automation Framework (olaf)
