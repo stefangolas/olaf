@@ -5,9 +5,6 @@ Created on Mon Mar 29 13:32:51 2021
 @author: stefa
 """
 
-import minimalmodbus
-from minimalmodbus import (MODE_ASCII, MODE_RTU)
-import serial
 import logging
 import time
 
@@ -76,8 +73,8 @@ class AgrowModbusInterface():
         
     def __exit__(self, type, value, tb):
         
-        for pump in modbus_pump_map:
-            address = modbus_pump_map[pump]
+        for pump in self.modbus_pump_map:
+            address = self.modbus_pump_map[pump]
             self.ensure_set_speed(address, 0)
         
 class AgrowPumps(AgrowModbusInterface):

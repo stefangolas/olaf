@@ -1,0 +1,8 @@
+requests
+pythonnet
+pywin32==300
+pyserial
+pyodbc
+sqlite3
+numpy
+pymodbus
